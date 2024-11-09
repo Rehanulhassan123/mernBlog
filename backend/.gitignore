@@ -145,7 +145,7 @@ dist
 **/*.back.*
 
 node_modules
-
+ 
 *.sublime*
 
 psd
