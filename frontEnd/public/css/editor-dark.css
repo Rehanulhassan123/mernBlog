@@ -1,0 +1,70 @@
+/* editor-dark.css */
+
+body {
+  /* background-color: var(--color-body); */
+  background-color: #fff;
+  color: var(--color-text-primary);
+  font-family: var(--font-family-inter);
+}
+
+/* Link styles */
+a {
+  color: var(--color-link);
+}
+a:hover {
+  color: var(--color-link-hover);
+}
+
+/* Table styles */
+table,
+th,
+td {
+  border: 1px solid var(--color-border);
+  background-color: var(--color-secondary);
+}
+
+th {
+  color: var(--color-main-heading);
+}
+
+td {
+  color: var(--color-paragraph);
+}
+
+/* Image styles */
+img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+/* Code blocks */
+code {
+  background-color: var(--color-secondary);
+  color: var(--color-text-primary);
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+/* Form Inputs inside the editor */
+input,
+textarea {
+  background-color: var(--color-input-bg);
+  color: var(--color-input-text);
+  border: 1px solid var(--color-input-border);
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--color-input-placeholder);
+}
+
+/* Buttons inside the editor */
+button {
+  background-color: var(--color-btn-bg);
+  color: var(--color-btn-text);
+  border: 1px solid var(--color-btn-border);
+}
+
+button:hover {
+  background-color: var(--color-btn-hover);
+}
